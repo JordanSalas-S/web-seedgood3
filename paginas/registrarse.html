@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/icons8-semilla-96.png" type="image/x-icon">
+    <title>Web - registro</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <h1>REGISTRO DE NUEVO USUARIO</h1>
+    <nav>
+        <ul>
+            <li><a href="./../index.html">Inicio</a></li>
+            <li><a href="./isesion.html">Iniciar Sesion</a></li>
+        </ul>
+    </nav>
+    <header>
+        <main>
+            <article>
+                <form action="">
+                    <div>
+                        <label for="nom">Nombres:</label>
+                        <input id="nom" type="text" maxlength="20" placeholder="Nombres Completos"required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="ape">Apellidos:</label>
+                        <input id="ape" type="text" maxlength="20" placeholder="Apellidos Completos"required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="dn">DNI:</label>
+                        <input id="dn" type="number" maxlength="8" placeholder="DNI completo"required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="cor">Correo:</label>
+                        <input id="cor" type="email" maxlength="40" placeholder="abc@gmail.com"required>
+                        <br>
+                        <small>Colocar un correo al que tenga acceso "obligatorio" </small>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="usu">Usuario:</label>
+                        <input id="usu" type="text" maxlength="15" placeholder="Maximo 15 caracteres"required>
+                        <br>
+                        <small>No utilizar caracteres especiales</small>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="con">Contraseña:</label>
+                        <input id="con" type="password" maxlength="15" placeholder="Maximo 15 caracteres"required>
+                        <br>
+                        <small>Evitar cotraseñas como 123..,el mismo usuario,solo puede tener 1 caracter especial </small>
+                    </div>
+                    <p>
+                        <small>¿Ya tienes una cuenta?&nbsp;<a href="./isesion.html">Inicia sesión</a></small>
+                    </p>
+                    <button type="submit"><a href="./Mensaje_reg.html">Registrarse</a></button>
+                </form>
+                 
+            </article>
+        </main>
+    </header>
+</body>
+</html>
