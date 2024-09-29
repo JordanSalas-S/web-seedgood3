@@ -1,19 +1,34 @@
-## TAREA
-1. Con lo visto en clase. Diseñar (Maquetación) y crear una pagina web que tenga los principales apartados de navegación (Inicio,<Agregar según el tema>, Acerca de). Así mismo deberá contener apartados para el inicio de sesión y registro de los usuarios. Tener en cuenta que la temática de la pagina dependerá de usted, no olvidar que para todo trabajo debe crear un readme explicando lo que uso en su pagina web.
+# TAREA
+
+_Dado que ahora hemos visto un poco de CSS deveras usar tu pagina anterior y agregar las modificaciones correspondientes. Dichas modificaciones deben incluir un nuevo diseño en cada apartado.
+Para tener un orden, tu proyecto deberá estar en un nuevo repositorio. Además de crear un readme explicando el uso de las propiedades que has utilizado en tu pagina web, como adicional a esto en el propio readme adjuntar captura de pantalla de la pagina._
+___
+
 ## EXPLICACION
-1.	link	:se utilizó para poder agregar un icono en la parte del nombre de la página web
-2.	h1	    :se utiliza para el titulo mas importante de la pagina web
-3.	header	:se utilizo para el encabezado de la pagina web
-4.	nav	    :se utilizo para parte donde se colocan enlacen
-5.	ul	    :lista
-6.	li	    :elemento de la lista
-7.	section	:es una sección de la pagina web
-8.	article	:bloque de contenido
-9.	div	    :es un contenedor
-10.	label	:define una etiqueta para un control de formulario
-11.	input	:control interactivo dentro de un formulario
-12.	small	:contenido pequeño de apoyo
-13.	br	    :salto de línea dentro de un texto
-14.	p	    :parrafo
-15.	button	:botón
-16.	form	: para poder crear un formulario dentro de una pagina web
+1.	font-family: define una lista de fuentes
+2.	box-sizing: Controla cómo se calculan el ancho y el alto de un elemento.
+3.	color: sirve para poder cambiar el color al texto
+4.	font-size: sirve para poder agrandar el texto, en base a *px* (pixeles)
+5.	font-weight: especifica el peso o groso de la letra de 100 a 900
+6.	text-align: sirve para alinear un bloque de texto
+7.	padding: sirve para añadir un espacio dentro de un elemento
+8.	border: sirve para agregar borde a un elemento
+9.	border-radius: sirve para redondear las esquinas de un borde
+10.	background-color: sirve para dar color al fondo de un elemento
+11.	margin-top: Añade espacio fuera de un elemento, en la parte superior.
+12.	text-decoration: Especifica si la etiqueta tendra un borde
+13.	font-style: Cambia el estilo del texto  a cursiva
+
+
+## IMAGENES
+-   **PAGINA PRINCIPAL DE PAGINA WEB**
+
+![inicio de mi pagina Web](./imagenes/INICIO.jpg)
+
+-  **PAGINA DE INICIO DE SESION**
+
+![Isesion](./imagenes/ISESION.jpg)
+
+- **PAGINA DE REGISTRO DE USUARIO**
+
+![Registro](./imagenes/REGISTRO.jpg)
